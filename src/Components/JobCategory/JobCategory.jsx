@@ -39,7 +39,7 @@ const JobCategory = () => {
       </div>
 
 
-      <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-3'>
+      <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-3 mb-10'>
         {
           jobCategories.map(job => <JobCard
           key={job.id}

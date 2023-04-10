@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn-primary{
-    @apply bg-gradient-to-r from-indigo-500 to-purple-500 py-3 px-4 rounded-md font-bold text-white
+    @apply bg-gradient-to-r from-indigo-500 to-purple-500 py-3 px-4 rounded-md font-bold text-white hover:bg-gradient-to-l
 }
 
 
