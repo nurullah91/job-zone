@@ -48,7 +48,7 @@ const Footer = () => {
 
 
             </div>
-            <span className='ml-10 text-gray-400'>@2023 CareerHub. All Rights Reserved</span>
+            <span className='ml-10 text-gray-400 text-center block mt-5'>@2023 CareerHub. All Rights Reserved</span>
         </div>
     );
 };
