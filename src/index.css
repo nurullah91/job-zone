@@ -5,3 +5,8 @@
 .btn-primary{
     @apply bg-gradient-to-r from-indigo-500 to-purple-500 py-3 px-4 rounded-md font-bold text-white
 }
+
+
+.text-primary{
+    @apply text-purple-500
+}

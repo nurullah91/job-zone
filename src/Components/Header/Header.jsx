@@ -10,20 +10,20 @@ const Header = () => {
 
     return (
 
-        <nav className='bg-gray-300 p-5'>
+        <nav className='bg-gray-300 py-5'>
 
 
 
 
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between w-11/12 mx-auto lg:w-10/12'>
                 <div> <h2 className='text-3xl font-bold'>JobZone</h2></div>
 
 
                 <div>
 
                     <div className='md:hidden' onClick={() => setOpen(!open)}>
-                        <span>{open === true ? <XMarkIcon className='h-6 w-6 text-purple-600'></XMarkIcon> :
-                            <Bars3Icon className='h-6 w-6  text-purple-600'></Bars3Icon>}</span>
+                        <span>{open === true ? <XMarkIcon className='h-6 w-6 text-dark'></XMarkIcon> :
+                            <Bars3Icon className='h-6 w-6  text-dark'></Bars3Icon>}</span>
                     </div>
 
                     <ul className={`md:flex md:p-0 p-5 bg-gray-300 absolute items-center  md:space-x-8  md:static duration-500  ${open ? 'top-16 right-0' : '-top-96'}`}>
