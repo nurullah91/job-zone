@@ -6,7 +6,7 @@ const Jobs = () => {
     const jobs =useContext(jobContext);
     const [showAll, setShowAll] = useState(false);
 
-console.log(jobs);
+
 
 
 

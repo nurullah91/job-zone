@@ -1,11 +1,20 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
 
 
 const Job = ({ job }) => {
-    const { company_logo, job_title, company, job_type, duty_time, location, salary } = job;
+    const { id, company_logo, job_title, company, job_type, duty_time, location, salary } = job;
+    
+    const navigate = useNavigate()
+
+const handleViewDetails= (id) =>{
+    navigate('/details',{state:{id:id}})
+
+}
+
     return (
         <div className='border rounded-md p-7'>
             <img src={company_logo} alt="company logo" />
@@ -25,7 +34,12 @@ const Job = ({ job }) => {
 
               
             </div>
-            <button className='btn-primary'>View Details</button>
+            <button onClick={() =>handleViewDetails(id)} className='btn-primary'>View Details</button>
+
+
+
+
+            {/* <Link to={`./job-details/${id}`} className='btn-primary'>View Details</Link> */}
 
 
         </div>
