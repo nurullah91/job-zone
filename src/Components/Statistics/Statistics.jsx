@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid} from 'recharts';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip} from 'recharts';
 
 
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
@@ -42,6 +42,7 @@ const Statistics = () => {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
                 <YAxis />
+                <Tooltip></Tooltip>
                 <Bar dataKey="marks" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
                     {assignments.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={colors[index % 20]} />

@@ -3,14 +3,24 @@ import { useLocation } from 'react-router-dom';
 import { jobContext } from '../../App';
 import bgImg from '../../assets/All Images/Vector.png'
 import bgImg2 from '../../assets/All Images/Vector-1.png'
+import { ArrowLongDownIcon } from '@heroicons/react/24/solid';
+import { addToDb } from '../FakeDB/FakeDB';
+import Swal from 'sweetalert2';
+
+
 const JobDetails = () => {
     const jobs = useContext(jobContext);
     const location = useLocation();
 
     const stateId = location.state.id;
     const job = jobs.find(job => job.id == stateId);
-    console.log(job)
 
+const handleApply= (id) =>{
+
+    addToDb(id);
+   
+
+}
     return (
         <div>
             <div className='flex justify-between items-center bg-gray-300'>
@@ -71,7 +81,7 @@ const JobDetails = () => {
 
                 </div>
                <div className='text-center my-5'>
-               <button className='btn-primary w-9/12 mx-auto'>Apply Now</button>
+               <button onClick={() => handleApply(job.id)} className='btn-primary w-9/12 mx-auto'>Apply Now</button>
                </div>
               </div>
             </div>
