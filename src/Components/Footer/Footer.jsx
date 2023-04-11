@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 mt-10  text-gray-400 gap-4 w-11/12 lg:w-9/12 mx-auto py-10 border-b'>
 
                 <div>
-                    <h3 className='text-2xl text-white mb-3'>CareerHub</h3>
+                    <h3 className='text-2xl text-white mb-3'>Job Zone</h3>
                     <p className='mb-7'>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
                     <img src="./group.png" alt="social icons" />
 
@@ -48,7 +48,7 @@ const Footer = () => {
 
 
             </div>
-            <span className='ml-10 text-gray-400 text-center block mt-5'>@2023 CareerHub. All Rights Reserved</span>
+            <span className='ml-10 text-gray-400 text-center block mt-5'>@2023 Job Zone. All Rights Reserved</span>
         </div>
     );
 };
