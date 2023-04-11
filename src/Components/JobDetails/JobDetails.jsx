@@ -49,7 +49,7 @@ const handleApply= (id) =>{
                     <h3 className='border-b border-indigo-600 mb-3 pb-3 text-xl font-bold'>Job Details</h3>
                     <div className='flex py-3'>
                         <img src="Frame.png" alt="icon" />
-                        <p ><strong>Salary: </strong><span>{job.salary} (Per Month)</span></p>
+                        <p ><strong>Salary: </strong><span>{job.salary}k (Per Month)</span></p>
                     </div>
 
                     <div className='flex py-3'>

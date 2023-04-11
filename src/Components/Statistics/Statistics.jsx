@@ -33,8 +33,10 @@ const Statistics = () => {
 
     return (
         <div>
+            <h2 className='text-4xl text-center my-5 font-semibold '>Assignment Statistics</h2>
             
-            <BarChart
+           <div className=" w-11/12 md:w-9/12 mx-auto">
+           <BarChart
                 width={500}
                 height={300}
                 data={assignments}
@@ -49,6 +51,7 @@ const Statistics = () => {
                     ))}
                 </Bar>
             </BarChart>
+           </div>
 
         </div>
     );

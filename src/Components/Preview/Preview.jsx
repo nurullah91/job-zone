@@ -1,7 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Preview = ({ job }) => {
-    const { company_logo, job_title, company, location, salary, job_type, duty_time } = job;
+    const { company_logo,id, job_title, company, location, salary, job_type, duty_time } = job;
+
+    const navigate = useNavigate()
+
+    const handleViewDetails= (id) =>{
+        navigate('/details',{state:{id:id}})
+    
+    }
+
+
     return (
         <div className='border m-5 md:flex justify-between items-center rounded-lg p-8'>
             <div className='flex items-center '>
@@ -29,7 +39,7 @@ const Preview = ({ job }) => {
                     </div>
                 </div>
             </div>
-                <button className='btn-primary'>View Details </button>
+                <button onClick={() =>handleViewDetails(id)} className='btn-primary'>View Details </button>
         </div>
     );
 };
