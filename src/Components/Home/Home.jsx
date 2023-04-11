@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import personImg from '../../assets/All Images/P3OLGJ1 copy 1.png'
 import JobCategory from '../JobCategory/JobCategory'
+import Jobs from '../Jobs/Jobs';
+
 
 const Home = () => {
     return (
@@ -21,6 +23,7 @@ const Home = () => {
                 </div>
             </div>
             <JobCategory></JobCategory>
+            <Jobs></Jobs>
           
 
         </div>
