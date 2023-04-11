@@ -13,7 +13,9 @@ const Preview = ({ job }) => {
 
 
     return (
-        <div className='border m-5 md:flex justify-between items-center rounded-lg p-8'>
+       <div>
+
+         <div className='border m-5 md:flex justify-between items-center rounded-lg p-8'>
             <div className='flex items-center '>
                 <div className='bg-gray-100 p-5 mr-5 rounded'>
                 <img src={company_logo} alt="" />
@@ -41,6 +43,7 @@ const Preview = ({ job }) => {
             </div>
                 <button onClick={() =>handleViewDetails(id)} className='btn-primary'>View Details </button>
         </div>
+       </div>
     );
 };
 
