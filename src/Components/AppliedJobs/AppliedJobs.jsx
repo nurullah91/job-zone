@@ -21,7 +21,6 @@ const AppliedJobs = () => {
     const filterRemote = ()=>{
        const filteredRemote = appliedJobs.filter(filteredRemote => filteredRemote.job_type === 'Remote');
        setAppliedJobsFinal(filteredRemote) ;
-      console.log(appliedJobsFinal);
         
     }
 
@@ -29,7 +28,6 @@ const AppliedJobs = () => {
     const filterOnsite = ()=>{
         const filteredOnsite = appliedJobs.filter(filteredJob => filteredJob.job_type === 'Onsite');
         setAppliedJobsFinal(filteredOnsite)
-        console.log(appliedJobsFinal)
 
     }
 
