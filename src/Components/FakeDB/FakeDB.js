@@ -20,7 +20,7 @@ const addToDb = id => {
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
-        text: 'You applied before!'
+        text: 'You applied this job before!'
       })
 
 

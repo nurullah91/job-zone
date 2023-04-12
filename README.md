@@ -5,17 +5,17 @@
 
 
 ### this website built with react router SPA(Single Page Application) 
-#### React router Documentation Link: (https://reactrouter.com/en/main/start/overview)
+#### React router Documentation Link: https://reactrouter.com/en/main/start/overview
 
 
 
 ## Resources & Credits
 
-####  Text: (https://play.tailwindcss.com/VCZwwz1e3R)
+####  Text: https://play.tailwindcss.com/VCZwwz1e3R
 
 
 
-#### Icon: (https://heroicons.com/)
-#### chart: (https://recharts.org/en-US/)
+#### Icon: https://heroicons.com/
+#### chart: https://recharts.org/en-US/
 
-# this website's live link: (https://job-zone-by-nurullah.netlify.app/)
+# this website's live link: https://job-zone-by-nurullah.netlify.app/
