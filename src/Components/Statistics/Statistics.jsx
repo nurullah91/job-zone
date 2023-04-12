@@ -37,8 +37,8 @@ const Statistics = () => {
             
            <div className=" w-11/12 md:w-9/12 mx-auto">
            <BarChart
-                width={500}
-                height={300}
+                width={350}
+                height={250}
                 data={assignments}
             >
                 <CartesianGrid strokeDasharray="3 3" />

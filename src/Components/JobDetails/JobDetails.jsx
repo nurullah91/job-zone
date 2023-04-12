@@ -23,10 +23,10 @@ const handleApply= (id) =>{
 }
     return (
         <div>
-            <div className='flex justify-between items-center bg-gray-300'>
-                <img src={bgImg} alt="background" />
+            <div className='lg:flex justify-between items-center bg-gray-300'>
+                <img className='w-[50%] h-[50%]' src={bgImg} alt="background" />
                 <h1 className='text-5xl font-bold'>Job details</h1>
-                <img src={bgImg2} alt="background" />
+                <img className='w-[50%] h-[50%]' src={bgImg2} alt="background" />
             </div>
 
 
