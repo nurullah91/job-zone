@@ -67,7 +67,7 @@ const Header = () => {
                                 blog
                             </NavLink>
                         </li>
-                        <li className = 'mt-2 md:mt-0'><button className='btn-primary'>Apply Now</button></li>
+                        <li className = 'mt-2 md:mt-0'><NavLink to ='/'><button className='btn-primary'>Apply Now</button></NavLink> </li>
                     </ul>
 
                 </div>
