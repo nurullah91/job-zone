@@ -26,7 +26,7 @@ const Header = () => {
                             <Bars3Icon className='h-6 w-6  text-dark'></Bars3Icon>}</span>
                     </div>
 
-                    <ul className={`md:flex md:p-0 p-5 bg-gray-300 absolute items-center  md:space-x-8  md:static duration-500  ${open ? 'top-16 right-0' : '-top-96'}`}>
+                    <ul className={`md:flex md:p-0 p-5 bg-gray-300 absolute z-50 items-center  md:space-x-8  md:static duration-500  ${open ? 'top-16 right-0' : '-top-96'}`}>
                         <li className = 'mt-2 md:mt-0'>
                             <NavLink
                                 to='/'

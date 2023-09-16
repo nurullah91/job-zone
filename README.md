@@ -18,4 +18,7 @@
 #### Icon: https://heroicons.com/
 #### chart: https://recharts.org/en-US/
 
+
+### This project is build on react and vite. To run this project locally please command on terminal "npm install" and then "npm run dev" then it will run on localhost5073 port.
+
 # this website's live link: https://job-zone-by-nurullah.netlify.app/

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip} from 'recharts';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer} from 'recharts';
 
 
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
@@ -36,6 +36,8 @@ const Statistics = () => {
             <h2 className='text-4xl text-center my-5 font-semibold '>Assignment Statistics</h2>
             
            <div className=" w-11/12 md:w-9/12 mx-auto">
+
+           <ResponsiveContainer width="100%" height={250}>
            <BarChart
                 width={350}
                 height={250}
@@ -51,6 +53,9 @@ const Statistics = () => {
                     ))}
                 </Bar>
             </BarChart>
+
+           </ResponsiveContainer>
+
            </div>
 
         </div>
